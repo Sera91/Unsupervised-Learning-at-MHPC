@@ -215,7 +215,7 @@ if abs(Myeuclide_dist_pair1-Scipy_dist_pair1)< 1.e-15:
 print('test distance: ', test_dist_res)
 Euclidean_distance_arr = np.array([Euclidean_dist(df_iono_reduced.iloc[0].values, df_iono_reduced.iloc[i].values) for i in range(df_iono_reduced.shape[0])])
 
-sys.exit()
+
 
 
 
