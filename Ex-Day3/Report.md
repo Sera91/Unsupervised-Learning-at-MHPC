@@ -1,6 +1,8 @@
 This directory contains a Python code:
 - density-peaks.py
-performin a clustering analysis of the datasets Aggregation and S3, based on a density peaks algorithm developed by me.
+
+
+performing a clustering analysis of the datasets Aggregation and S3, based on a density peaks algorithm developed by me.
 
 To run the code which perform the clustering analysis of the wanted dataset through the density peaks algorithm,
 you can launch the following command from terminal:
