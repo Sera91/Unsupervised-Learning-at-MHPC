@@ -1,0 +1,19 @@
+[[15.75  7.75]
+ [32.8  20.  ]
+ [ 8.35 23.9 ]
+ [21.15 22.95]
+ [33.3  10.3 ]
+ [ 6.75  3.55]
+ [ 7.85 11.85]]
+TESTING Kmeans algorithm
+on dataset Aggregation
+Manual implementation of F1-score : 0.36714558733192276
+sklearn F1-score: 0.36823596981765405
+Manual implementation of NMI coeff : 0.8792390052708804
+sklearn NMI score: 0.8792390052708805
+TESTING Density-peaks algorithm
+on dataset Aggregation
+Manual implementation of F1-score : 0.10914927768860352
+sklearn F1-score: 0.10914927768860352
+Manual implementation of NMI coeff : 0.9161884132796834
+sklearn NMI score: 0.9161884132796834

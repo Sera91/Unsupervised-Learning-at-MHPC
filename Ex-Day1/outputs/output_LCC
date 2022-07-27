@@ -1,0 +1,35 @@
+Testing correlation coeff routine:
+Manual implementation: 0.09141460302089632
+Numpy implementation:  0.09141460302089631
+Aspect_ratio                  : 0.27521011784907834
+uniformity                    : 0.18771684999019722
+Elongation                    : 0.14127524729577043
+solidity                      : 0.11184290470599254
+avg_intensity                 : 0.10245321896478979
+smoothness                    : 0.0948852053530928
+Eccentricity                  : 0.09141460302089632
+avg_contrast                  : 0.07624645270769873
+third_moment                  : 0.05852012269141437
+stochastic_convexity          : 0.04667831920371105
+entropy                       : 0.01769003965398185
+Specimen_number               : -0.01514201654732639
+lobedness                     : -0.01704805059413962
+max_indent_depth              : -0.040025582355131525
+isoperimetric_factor          : -0.049766613170472276
+We are going to estimate the mahalanobis distance between points in the dataset considering only these features:
+Index(['Aspect_ratio', 'uniformity', 'Elongation', 'solidity',
+       'avg_intensity'],
+      dtype='object')
+Mahalanobis distance arr:
+0       1.446652
+1       1.769107
+2       2.258160
+3       2.178677
+4       2.491353
+         ...    
+335    10.473848
+336    13.720805
+337     8.831505
+338     5.401367
+339    13.868313
+Name: Mahalanobis, Length: 340, dtype: float64

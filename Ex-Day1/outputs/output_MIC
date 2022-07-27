@@ -1,0 +1,27 @@
+Feature: handicapped_infants |  MI value= 0.08738722927832451  | diff with Scikit: 8.326672684688674e-17
+Feature: water_project_cost_sharing |  MI value= 0.00024996231558368576  | diff with Scikit: -5.043708506402567e-16
+Feature: adoption_budget_resolution |  MI value= 0.29966050855502235  | diff with Scikit: -2.7755575615628914e-16
+Feature: physician_fee_freeze |  MI value= 0.5129515491210119  | diff with Scikit: 2.220446049250313e-16
+Feature: el_salvador_aid |  MI value= 0.292820363908198  | diff with Scikit: 0.0
+Feature: religious_groups_in_school |  MI value= 0.10205527995633651  | diff with Scikit: -3.469446951953614e-16
+Feature: anti_satellite_test_ban |  MI value= 0.13702350844932737  | diff with Scikit: -5.551115123125783e-17
+Feature: aid_nicaraguan_contras |  MI value= 0.23582647275244228  | diff with Scikit: -4.718447854656915e-16
+Feature: mx_missile |  MI value= 0.21526164558528296  | diff with Scikit: -2.220446049250313e-16
+Feature: immigration |  MI value= 0.003522481150227346  | diff with Scikit: -6.5052130349130266e-18
+Feature: synfuels_corporation_cutback |  MI value= 0.07436909386118576  | diff with Scikit: 2.3592239273284576e-16
+Feature: education_spending |  MI value= 0.25941112399790134  | diff with Scikit: -3.3306690738754696e-16
+Feature: superfund_right_to_sue |  MI value= 0.15789963958281852  | diff with Scikit: -7.494005416219807e-16
+Feature: crime |  MI value= 0.232400928863132  | diff with Scikit: -6.106226635438361e-16
+Feature: duty_free_exports |  MI value= 0.15277113756241903  | diff with Scikit: -1.6653345369377348e-16
+Feature: export_administration_act_SA |  MI value= 0.07068655457934098  | diff with Scikit: 1.942890293094024e-16
+Features ranked depending on their MI value respect to voting party:
+['physician_fee_freeze' 'adoption_budget_resolution' 'el_salvador_aid'
+ 'education_spending' 'aid_nicaraguan_contras' 'crime' 'mx_missile'
+ 'superfund_right_to_sue' 'duty_free_exports' 'anti_satellite_test_ban'
+ 'religious_groups_in_school' 'handicapped_infants'
+ 'synfuels_corporation_cutback' 'export_administration_act_SA'
+ 'immigration' 'water_project_cost_sharing']
+test Hamming distance routine:  passed!
+the mean Hamming distance between point 0 in the Republican dataframe and other points associated to Republican is: 4.179640718562874
+while, the mean Hamming distance between point 0 in the Republican dataframe and points associated to democratics is: 11.48314606741573
+therefore we can observe that the average Hamming distance is smaller between points in the same class, as expected.

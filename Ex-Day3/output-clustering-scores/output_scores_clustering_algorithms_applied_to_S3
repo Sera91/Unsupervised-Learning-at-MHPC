@@ -1,0 +1,58 @@
+Density peaks coords: [[303358. 465484.]
+ [608021. 769876.]
+ [344023. 762757.]
+ [563994. 442850.]
+ [197207. 227289.]
+ [776828. 654056.]
+ [774221. 460237.]
+ [666623. 237639.]
+ [368253. 259040.]
+ [517003. 601763.]
+ [445423. 404289.]
+ [767029. 783094.]
+ [229642. 338813.]
+ [359824. 590166.]
+ [535946. 315189.]]
+Kmeans centroids coords: [[441724.7  403681.95]
+ [775039.92 797851.7 ]
+ [369978.68 253482.73]
+ [223296.85 341261.69]
+ [302791.85 464840.61]
+ [776861.79 456960.37]
+ [341339.29 770056.82]
+ [358209.56 597250.34]
+ [780336.42 648679.33]
+ [609559.8  771100.09]
+ [192980.77 209656.3 ]
+ [570099.07 442966.31]
+ [547543.29 292399.14]
+ [522518.24 608048.26]
+ [678971.79 227198.73]]
+TESTING Kmeans algorithm
+on dataset S3
+Manual implementation of F1-score : 0.006868078887957992
+sklearn F1-score: 0.010280363811640332
+Manual implementation of NMI coeff : 0.7942586805154478
+sklearn NMI score: 0.7942586805154482
+TESTING Density-peaks algorithm
+on dataset S3
+Manual implementation of F1-score (weighted)  : 0.07169797618302004
+sklearn F1-score (weighted) : 0.07702663499957287
+Manual implementation of NMI coeff : 0.7959876538413676
+sklearn NMI score: 0.7959876538413675
+TESTING Kmeans algorithm
+on dataset S3
+after remapping the labels, reordering centroids coords according to the
+list of true centroids coords.
+Manual implementation of F1-score (weighted) : 0.8007954288869239
+Manual implementation of F1-score (weighted): 0.8556807121754666
+Manual implementation of NMI coeff : 0.7942586805154479
+sklearn NMI score: 0.7942586805154481
+TESTING Density-peaks algorithm
+on dataset S3
+after remapping the labels, reordering centroids coords according to the
+list of true centroids coords.
+Manual implementation of F1-score (weighted)  : 0.8048552912001357
+Manual implementation of F1-score (weighted) : 0.8584492692319214
+Manual implementation of NMI coeff : 0.7959876538413677
+sklearn NMI score: 0.7959876538413675
