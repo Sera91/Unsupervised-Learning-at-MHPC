@@ -4,7 +4,7 @@ In this directory are hosted two Python codes:
 
 which perform the analysis of the clustering of points in the dataset S3,
 respectively exploiting the Kmeans algorithm (both with random and K++ inizialization of centroids),
-and the Fuzzy Cmeans algorithm, as requested by the Exercises listed in Practices_2.
+and the Fuzzy Cmeans algorithm, as requested by the Exercises listed in Practices2.pdf .
 
 
 To run the first Python code we can launch the following command from terminal:
