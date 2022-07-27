@@ -1,3 +1,6 @@
+# Report on Practice 2
+## by Serafina Di Gioia
+
 In this directory are hosted two Python codes:
 - K-means-final.py
 - Fuzzy-Cmeans.py
