@@ -1,10 +1,14 @@
+This directory contains a Python code:
+- density-peaks.py
+performin a clustering analysis of the datasets Aggregation and S3, based on a density peaks algorithm developed by me.
+
 To run the code which perform the clustering analysis of the wanted dataset through the density peaks algorithm,
 you can launch the following command from terminal:
 - python density-peaks.py 
 
 and then type A or B, respectively to analyze the Aggregation and the S3 datasets.
 
-These code will produce the plots shown in sub-dir plots, and the output files shown in the sub-dir outputs.
+This code will produce the plots shown in sub-dir plots, and the output files shown in the sub-dir outputs.
 In the latter subdir there are 2 types of files.
 One with the coordinates of the best centroids assigneds by the Kmeans algorithm or  the density peaks found with
 the density peaks algorithm.
