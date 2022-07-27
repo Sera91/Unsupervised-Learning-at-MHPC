@@ -1,3 +1,6 @@
+# Report on Practice 1
+## by Serafina Di Gioia
+
 In this directory are contained the codes solving the exercises described in Practice1.pdf, first exercise sheet of the Unsupervised Learning course
 by Alex Rodriguez.
 
