@@ -9,7 +9,7 @@ from scipy.spatial.distance import hamming
 #Download the Congressional Voting Records dataset from:
 # http://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records
 #rank the importance of the variables for classifying the party of vote according with
-#the mutual information criteria.
+#the mutual information criterion classifier.
 
 
 
